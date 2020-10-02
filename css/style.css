@@ -1,0 +1,60 @@
+
+
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni {
+  text-align: center;
+}
+
+
+
+#steps {
+  text-align: center;
+}
+
+/* BLOCCO PERCHE */
+#why {
+  text-align: center;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img {
+  height: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+@media screen and (max-width: 480px){
+  .row{
+    width:100%;
+    margin: auto;
+  }
+
+  #lezioni{
+    background-color:lightyellow;
+  }
+
+
+
+  #why{
+    background-color:lightyellow;
+  }
+
+}
